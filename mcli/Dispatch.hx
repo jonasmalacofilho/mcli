@@ -59,7 +59,7 @@ class Dispatch
 					ret.addChar("\n".code);
 					for (i in 0...(argSize + 5))
 					ret.add(" ");
-					ccount = argSize + 5;
+					ccount = argSize + 5 + word.length + 1;
 				}
 				ret.add(word);
 				ret.add(" ");
